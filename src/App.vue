@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome Erika Gualoto" />
+  <Contador />
+  <Contador />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import Contador from "./components/Contador.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Contador,
   },
 };
 </script>
@@ -23,4 +23,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
